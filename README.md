@@ -1,19 +1,8 @@
-# Welcome to the Project by Vinay Dhulipalla
 
-## Project Info
-
-**Project Owner:** Vinay Dhulipalla  
 **Tech Stack:** Vite + TypeScript + React + shadcn-ui + Tailwind CSS
 
 ---
 
-## How to Edit This Code
-
-You can edit this project in several ways.
-
-### 🧠 Use Your Preferred IDE
-
-If you want to work locally using your own IDE (like VS Code), you can clone this repository and push changes.
 
 #### Prerequisites
 - Node.js & npm installed — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
