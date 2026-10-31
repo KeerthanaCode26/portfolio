@@ -21,7 +21,7 @@ const About = () => {
   }, []);
 
   const stats = [
-    { icon: Briefcase, label: "Years Experience", value: 4, suffix: "" },
+    { icon: Briefcase, label: "Years Experience", value: 5, suffix: "" },
     { icon: Code, label: "Projects Completed", value: 20, suffix: "+" },
     { icon: Users, label: "Platforms Optimized", value: 5, suffix: "+" },
     { icon: Award, label: "Certifications", value: 5, suffix: "" },
@@ -51,7 +51,7 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="space-y-4"
           >
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            {/* <p className="text-lg text-muted-foreground leading-relaxed">
               Full Stack Developer with around <span className="text-primary font-semibold">4 years</span> of professional experience
               delivering end-to-end web applications across frontend, backend, and cloud environments.
             </p>
@@ -64,7 +64,9 @@ const About = () => {
               Proven experience in designing REST and GraphQL APIs, implementing secure authentication
               (AWS Cognito), and optimizing SQL/NoSQL databases to support high-traffic applications
               with measurable performance outcomes.
-            </p>
+            </p> */}
+
+            <p className="text-lg text-muted-foreground leading-relaxed">Python Developer with around 5 years of experience designing, building, and deploying scalable, secure backend systems and RESTful APIs using Python, Django, Django REST Framework, and FastAPI. Skilled in building microservices, asynchronous services with Celery, and data-access layers using Django ORM over SQL (PostgreSQL, MySQL) and MongoDB. Experienced in containerizing and orchestrating applications with Docker and Kubernetes, and deploying, scaling, and monitoring workloads on AWS (EKS, Lambda, S3, RDS, API Gateway, CloudWatch) through automated CI/CD pipelines. Skilled in delivering responsive front ends in JavaScript and React. Proven record of integrating enterprise platforms such as Banner ERP and delivering reliable, well-tested software in Agile teams, with growing hands-on expertise in agentic AI and LLM integrations.</p>
           </motion.div>
 
           <motion.div

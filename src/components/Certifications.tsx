@@ -11,19 +11,13 @@ const Certifications = () => {
       description: "Comprehensive training in frontend development using React, hooks, and modern ecosystem.",
     },
     {
-      title: "Meta Back-End Developer Professional Certificate",
-      issuer: "Coursera",
-      status: "Certified",
-      description: "Expertise in backend development, databases, and APIs following Meta's standards.",
-    },
-    {
       title: "Power Platform Fundamentals",
       issuer: "Microsoft",
       status: "Certified",
       description: "Knowledge of Microsoft Power Platform, automated workflows, and data analysis.",
     },
     {
-      title: "Cloud Computing Foundations",
+      title: "Prompt Engineering",
       issuer: "Coursera",
       status: "Certified",
       description: "Core principles of cloud-native development, infrastructure, and deployment strategies.",

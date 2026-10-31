@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 const Hero = () => {
   const [text, setText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
-  const words = ["Full Stack Developer", "MERN & MEAN Stack", "Cloud Solutions Architect", "Backend Systems Engineer"];
+  const words = ["Full Stack Developer", "MERN Stack", "API Integration", "Backend Systems Engineer"];
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
@@ -71,7 +71,7 @@ const Hero = () => {
               transition={{ delay: 0.6 }}
               className="text-lg text-muted-foreground max-w-xl"
             >
-              Around 4 years of professional experience delivering end-to-end web applications 
+              Around 5 years of professional experience delivering end-to-end web applications 
               across frontend, backend, and cloud environments. Expertise in MERN, MEAN, 
               and architecting scalable cloud solutions.
             </motion.p>

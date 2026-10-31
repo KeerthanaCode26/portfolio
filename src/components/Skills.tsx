@@ -1,52 +1,52 @@
 import { motion } from "framer-motion";
-import { Cloud, Code, Database, GitBranch, GitCommit, Lock, Settings, Zap, ZoomInIcon } from "lucide-react";
+import { Cloud, Code, Database, GitBranch, GitCommit, Lock, Settings, TestTube2Icon, Zap, ZoomInIcon } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming & Scripting",
+      title: "Programming Languages",
       icon: Code,
-      skills: ["JavaScript (ES6+)", "TypeScript", "Java", "Python", "PHP", "Apex"],
+      skills: ["Python", "JavaScript", "TypeScript", "SQL", "HTML5", "CSS3"],
     },
     {
       title: "Frontend Development",
       icon: Zap,
-      skills: ["React.js", "Vue.js", "Angular", "Next.js", "Redux", "Tailwind CSS", "Bootstrap", "HTML5", "CSS3"],
+      skills: ["React", "Angular", "Vue.js", "JavaScript", "Bootstrap", "Responsive Web Design"],
     },
     {
       title: "Backend Development",
       icon: Settings,
-      skills: ["Node.js", "Express.js", "Spring Boot", "FastAPI", "RESTful APIs", "GraphQL", "WebSockets"],
+      skills: ["Python", "Django", "Django REST Framework (DRF)", "FastAPI", "Flask", "RESTful APIs", "Microservices", "Pydantic", "Celery", "Async/Await", "WebSockets", "PHP"],
     },
     {
       title: "Cloud & DevOps",
       icon: Cloud,
-      skills: ["AWS (Lambda, EC2, EKS, S3)", "Azure (AKS, App Services)", "Docker", "Kubernetes", "CI/CD Pipelines", "GitHub Actions", "Terraform"],
+      skills: ["AWS (EC2, S3, Lambda, ECS, EKS, RDS, API Gateway, CloudWatch, IAM)", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub Actions", "CI/CD", "Gunicorn", "Uvicorn", "Nginx"],
     },
     {
-      title: "Databases & Data Management",
+      title: "Databases & ORM",
       icon: Database,
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "Redis", "Oracle PL/SQL", "NoSQL"],
+      skills: ["PostgreSQL", "MySQL", "SQLite", "SQL", "MongoDB", "Redis", "Django ORM"],
+    },
+    {
+      title: "Authentication & Security",
+      icon: Lock,
+      skills: ["OAuth 2.0", "JWT", "Django Authentication", "Role-Based Access Control", "OpenAPI/Swagger"],
     },
     {
       title: "Testing & Quality",
-      icon: Lock,
-      skills: ["JUnit", "Mockito", "Jest", "Cypress", "Playwright", "Selenium", "Datadog", "Prometheus"],
+      icon: TestTube2Icon,
+      skills: ["pytest", "unittest", "Postman", "SonarQube", "Test-Driven Development (TDD)"],
     },
     {
-      title: "Tools & Version Control",
-      icon: GitBranch,
-      skills: ["Git", "GitHub", "Azure DevOps", "VS Code", "Jenkins", "Postman", "Bitbucket"],
-    },
-    {
-      title: "Web Technologies",
+      title: "Data & AI/LLM",
       icon: GitCommit,
-      skills: ["MERN Stack", "MEAN Stack", "Responsive Design", "Authentication", "Authorization", "Event-Driven Workflows"],
+      skills: ["Pandas", "NumPy", "Hugging Face", "n8n Agents", "Claude Code", "Anthropic SDK", "Prompt Engineering", "LLM Integration"],
     },
     {
-      title: "Methodologies",
+      title: "Enterprise Systems & Tools",
       icon: ZoomInIcon,
-      skills: ["Agile/Scrum", "SDLC", "Test-Driven Development", "Code Review", "Production Support"],
+      skills: ["Banner ERP", "Microsoft Power Automate", "Power Platform", "Git", "JIRA", "Confluence", "Agile", "Scrum", "SDLC"],
     },
   ];
 
